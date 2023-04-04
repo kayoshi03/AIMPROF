@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn_idle {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+
+    color: #000000;
+
+    background-color: none;
+
+    border: 1px solid #dc911b;
+    border-radius: 5px;
+
+
+    padding: 11px 26px;
+}
