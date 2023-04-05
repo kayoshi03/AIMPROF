@@ -103,6 +103,7 @@ body,html {
     width: 100%;
     height: 687px;
     
+    
     position: relative;
 }
 .bg_block1 {
@@ -145,9 +146,15 @@ body,html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1207px;
+    
     height: 1975px;
+    width: -webkit-fill-available;
+    
+    padding: 0 351px 0 362px;
+
+    position: relative;
 }
+
 .block_2 .title {
     font-family: 'Roboto';
     font-style: normal;
@@ -215,7 +222,7 @@ body,html {
 
     float: right;
 
-    margin-top: 100px;
+    margin-top: 93px;
 }
 .jobs .text_blocks {
     margin: 0 179px 0 121px;
@@ -234,7 +241,7 @@ body,html {
 
     float: left;
 
-    margin-top: 100px;
+    margin-top: 95px;
 }
 .train .text_blocks {
     margin: 0 0 0 132px;
@@ -253,7 +260,7 @@ body,html {
 
     justify-content:flex-end;
 
-    margin-top: 100px;
+    margin-top: 102px;
 }
 .invalid .text_blocks {
     margin: 0 74px 0 0;
@@ -263,11 +270,38 @@ body,html {
 
     float: right;
 }
+
+.bg_block_2{
+    position: absolute;
+}
+
+.bg_lines_1 {
+    top: 273.16px;
+    left: 0;
+}
+.bg_lines_2 {
+    top: 522px;
+    left: 701px;
+}
+.bg_lines_3 {
+    top: 928px;
+    left: 746px;
+}
+.bg_lines_4 {
+    top: 1339px;
+    left: 132px;
+}
+.bg_lines_5 {
+    top: 1703px;
+    left: 1551px;
+}
 /*------------------block_3----------------------*/
 
 .block_3 {
     width: 100%;
     height: 758px;
+
+    margin-top: 206px;
 
     display: flex;
     /* justify-content: center; */
@@ -501,6 +535,9 @@ body,html {
 
 .block_5 {
     width: 100%;
+
+    margin-top: 88px;
+
     position: relative;
 }
 .bg_block_5 {
@@ -521,6 +558,8 @@ body,html {
 }
 
 .more_buttons {
+    cursor: pointer;
+
     position: absolute;
 
     top: 380px;
@@ -750,6 +789,7 @@ body,html {
     padding:  0 360px;
 }
 .state {
+    cursor: pointer;
     margin-left: 30px;
 }
 .state h1 {
@@ -783,6 +823,8 @@ body,html {
     color: #C6C6C6;
 }
 .more_state {
+    cursor: pointer;
+
     width: 100%;
 
     margin-top: 60px;
@@ -980,16 +1022,16 @@ cursor: pointer;
     flex-direction: column;
     gap: 30px;
 }
-.search {
+.searchs {
     position: relative;
 }
-.search input{
+.searchs input{
     width: 100%;
 
     background-color: #3E3E3D;
     border: 1px solid #fff;
     border-radius: 3px;
-    padding: 12px 18px;
+    padding: 12px 43px 12px 18px;
 }
 .footer_searc_button {
     display: flex;
@@ -1001,6 +1043,11 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .mail a {
     font-family: 'Montserrat';
@@ -1014,6 +1061,11 @@ cursor: pointer;
     text-decoration-line: underline;
 
     color: #FFFFFF;
+}
+.geo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .geo label{
     font-family: 'Montserrat';
@@ -1037,6 +1089,11 @@ cursor: pointer;
 
     color: #FFFFFF;
 }
+.footer_call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .footer_call_back button{
     font-family: 'Montserrat';
     font-style: normal;
@@ -1053,7 +1110,7 @@ cursor: pointer;
     background-color: #FD9913;
     border-radius: 3px;
     border: none;
-    
+
     transition: background-color  .5s ease;
     
 }
@@ -1081,6 +1138,12 @@ cursor: pointer;
 }
 .footer_logo {
     margin-left: 288px;
+}
+.searchs .icon{
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    left: 387px;
 }
 /*--------BTN-------*/
 .btn_idle {
