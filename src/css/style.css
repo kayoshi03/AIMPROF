@@ -1053,13 +1053,14 @@ cursor: pointer;
     background-color: #FD9913;
     border-radius: 3px;
     border: none;
-
-    transition: ;
+    
+    transition: background-color  .5s ease;
+    
 }
 .footer_call_back button:hover {
     background-color: #fff;
     color:  #FD9913;
-    transition: background-color  .5s ease;
+    
 }
 .footer_2block {
     margin-top: 55px;
